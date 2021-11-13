@@ -1,6 +1,13 @@
+import React, {Component} from "react"
+class CampsiteInfo extends Component{
 
-class CampsiteInfo {
-    
+
+
+    render(props) {
+        if campsite != true {
+
+        } else return (<div />);
+    }
 }
 
 

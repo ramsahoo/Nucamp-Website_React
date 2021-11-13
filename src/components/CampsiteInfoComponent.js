@@ -4,11 +4,11 @@ class CampsiteInfo extends Component{
 
 
     render(props) {
-        if campsite != true {
-
-        } else return (<div />);
+        if campsite {
+            
+            return (<div />);
+        }
     }
 }
-
 
 export default CampsiteInfo;

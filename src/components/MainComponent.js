@@ -9,7 +9,7 @@ import About from './AboutComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-const mappropsToProps = props => {
+const mapStateToProps = state => {
     return {
         campsites: state.campsites,
         comments: state.comments,
